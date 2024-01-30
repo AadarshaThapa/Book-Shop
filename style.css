@@ -1,0 +1,155 @@
+body {
+    background-color: #d7d7d7;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#header-wrapper {
+    width: 100%;
+    ;
+}
+
+.logo {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    ;
+
+}
+
+.tagline {
+    font-size: 12px;
+    font-family: monospace;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+.nav-wrapper {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#bookListWrapper {
+    width: 100%;
+    padding: 10px;
+}
+
+#bookListWrapper input {
+    width: 25%;
+}
+
+#bookListWrapper .book {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#bookListWrapper .book .book-details {
+    margin-left: 160px;
+}
+
+.book-details h3 {
+    color: #333;
+}
+
+.book-details p {
+    color: #555;
+}
+
+.book-details button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-details button:hover {
+    background-color: #297fb8;
+}
+
+.book img {
+
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+    border-radius: 5px;
+    ;
+}
+
+.book {
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+ul.list-unstyled {
+    padding: 0;
+}
+
+#header-wrapper {
+    background-color: #22005a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 16px;
+}
+
+.nav-wrapper {
+    margin-top: 10px;
+}
+
+.nav-pills li {
+    margin-right: 10px;
+}
+
+.nav-pills a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #2980b9;
+    transition: background-color 0.3s;
+}
+
+.nav-pills a:hover {
+    background-color: #1d5a7a;
+}
+
+
+.nav-pills li+li {
+    margin-left: 20px;
+}
